@@ -10,7 +10,7 @@ const MovieGuideLite = () => {
 
   const getMovie = () => {
     
-    let url = `http://www.omdbapi.com/?t=${movieName}&apiKey=${import.meta.env.VITE_API_KEY}`;
+    let url = `/.netlify/functions/omdb?title=${movieName}`;
 
     if (movieName.length <= 0) {
       setMovieData(<h3 className="msg">Please enter movie name</h3>);
