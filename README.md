@@ -1,7 +1,7 @@
 # Movie-Guide-Lite-App-using-React
 
 ### 🔗 Live Demo
--
+https://movie-lite-app-developed-in-react.netlify.app
 
 ### 📸 Screenshots
 ![My application screenshot](/src/assets/images/ma-screenshot.JPG)
@@ -17,5 +17,13 @@ HTML, CSS, JavaScript, React.
 - Clean UI
 
 ### 📂 How to Run
-npm install <br/>
-npm start OR npm run dev
+```bash
+ npm install 
+```
+```bash
+ npm start
+```
+ or
+```bash
+ npm run dev
+```
